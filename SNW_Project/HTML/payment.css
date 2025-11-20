@@ -6,7 +6,7 @@
 }
 
 body{
-  background-color: rgb(238,251,249); /* pale teal */
+  background-color: rgb(238,251,249); 
   display: flex;
   justify-content: center;
   padding: 30px 10px;
