@@ -4,25 +4,30 @@
   <meta charset="UTF-8">
   <title>FinRuppee Login</title>
   <link rel="stylesheet" href="/CSS/login.css">
-  <link rel="icon" href="favicon-img.png">
+  <link rel="icon" href="/Images/favicon-img.png">
 </head>
 <body>
 
   <div class="box">
     <h2>Login to FinRuppee</h2>
 
-    <form>
+    <form id="login-form">
       <label>Email</label>
-      <input type="email" placeholder="Enter your email" required>
+      <input type="email" id="email" placeholder="Enter your email" required>
 
       <label>Password</label>
-      <input type="password" placeholder="Enter your password" required>
+      <div class="password-box">
+        <input type="password" id="password" placeholder="Enter your password" required>
+        <span id="toggle-pass" class="toggle-btn">Show</span>
+      </div>
 
-      <button type="submit" class="btn">Login</button>
+      <button type="submit" class="btn" id="login-btn" disabled>Login</button>
     </form>
 
     <p class="note">Don't have an account? <a href="signup.html">Sign up</a></p>
   </div>
+
+<script src="/JS/script.js"></script>
 
 </body>
 </html>

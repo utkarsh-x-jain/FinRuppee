@@ -1,70 +1,80 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Arial, sans-serif;
-}
+/* CSS for signup page */
 
-body{
-  background-color: rgb(233,247,244); 
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(244,251,249);
+  color: rgb(11,26,43);
   display: flex;
-  height: 100vh;
   justify-content: center;
   align-items: center;
+  height: 100vh;
 }
 
-.box{
-  width: 350px;
-  background-color: rgb(255,255,255);
-  padding: 25px;
-  border-radius: 8px;
-  border: 1px solid rgb(207,238,232);
+.box {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(11,47,109,0.06);
+  width: 360px;
 }
 
-.box h2{
-  text-align: center;
-  color: rgb(14,155,141);
+h2 {
+  color: rgb(11,107,96);
   margin-bottom: 20px;
+  text-align: center;
 }
 
-label{
-  font-size: 15px;
-  margin-top: 10px;
+label {
   display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
 }
 
-input{
+input {
   width: 100%;
   padding: 10px;
-  margin-top: 5px;
-  border: 1px solid rgb(143,218,200);
-  border-radius: 5px;
-  font-size: 15px;
+  margin-bottom: 14px;
+  border: 1px solid rgba(11,47,109,0.1);
+  border-radius: 8px;
 }
 
-.btn{
-  width: 100%;
-  padding: 10px;
-  margin-top: 20px;
-  background-color: rgb(14,155,141);
-  border: none;
-  color: rgb(255,255,255);
-  font-size: 17px;
-  border-radius: 5px;
+.passBox {
+  position: relative;
+}
+
+#togglePassword {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
   cursor: pointer;
 }
 
-.btn:hover{
-  background-color: rgb(10,122,102);
+#strengthMsg {
+  font-size: 13px;
+  margin-bottom: 12px;
+  color: rgb(14,155,141);
 }
 
-.note{
+.btn {
+  width: 100%;
+  background-color: rgb(14,155,141);
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.note {
   text-align: center;
-  margin-top: 15px;
+  margin-top: 12px;
   font-size: 14px;
 }
 
-.note a{
+.note a {
   color: rgb(14,155,141);
   text-decoration: none;
 }

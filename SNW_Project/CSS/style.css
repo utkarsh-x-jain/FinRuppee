@@ -396,3 +396,61 @@ body {
     grid-template-columns: 1fr; 
   }
 }
+
+
+
+body.dark {
+  background: #0d1117;
+  color: #f0f6fc;
+}
+
+body.dark .header {
+  background-color: rgba(22,27,34,0.75);
+  border-bottom-color: rgba(255,255,255,0.08);
+}
+
+body.dark .nav a {
+  color: #58a6ff;
+}
+body.dark .nav a:hover {
+  background-color: rgba(56,139,253,0.16);
+  color: #58a6ff;
+}
+
+body.dark .feature,
+body.dark .plan,
+body.dark .device,
+body.dark .callinner {
+  background-color: #161b22;
+  border-color: rgba(255,255,255,0.08);
+  color: #f0f6fc;
+}
+
+body.dark .content h1 { color: #58a6ff; }
+body.dark .content p { color: #9da5b4; }
+
+body.dark .footer {
+  background-color: #0d1117;
+  color: #c9d1d9;
+}
+
+body.dark .flink a {
+  color: #c9d1d9;
+}
+
+
+body.dark {
+   background: #0d1117; color: #f0f6fc; 
+}
+body.dark .header { 
+  background-color: rgba(22,27,34,0.75); 
+}
+body.dark .nav a { 
+  color: #58a6ff; 
+}
+body.dark .nav a:hover {
+   background-color: rgba(56,139,253,0.16);
+}
+body.dark .footer {
+   background-color: #0d1117; color: #c9d1d9; 
+}

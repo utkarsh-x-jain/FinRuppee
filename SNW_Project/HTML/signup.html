@@ -4,28 +4,35 @@
   <meta charset="UTF-8">
   <title>FinRuppee Signup</title>
   <link rel="stylesheet" href="/CSS/signup.css">
-  <link rel="icon" href="favicon-img.png">
+  <link rel="icon" href="/Images/favicon-img.png">
 </head>
 <body>
 
   <div class="box">
     <h2>Create Your FinRuppee Account</h2>
 
-    <form>
+    <form id="signupForm">
       <label>Full Name</label>
-      <input type="text" placeholder="Enter full name" required>
+      <input type="text" id="fullName" name="fullName" placeholder="Enter full name" required>
 
       <label>Email</label>
-      <input type="email" placeholder="Enter email" required>
+      <input type="email" id="email" name="email" placeholder="Enter email" required>
 
       <label>Password</label>
-      <input type="password" placeholder="Create password" required>
+      <div class="passBox">
+        <input type="password" id="password" name="password" placeholder="Create password" required>
+        <span id="togglePassword">👁</span>
+      </div>
+
+      <div id="strengthMsg"></div>
 
       <button type="submit" class="btn">Sign Up</button>
     </form>
 
     <p class="note">Already have an account? <a href="login.html">Login</a></p>
   </div>
+
+<script src="/JS/script.js"></script>
 
 </body>
 </html>
